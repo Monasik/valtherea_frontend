@@ -1,0 +1,774 @@
+{
+  "navigation": {
+    "aria": "Hlavní navigace",
+    "home": "Domů",
+    "professions": "Profese",
+    "market": "Ekonomika",
+    "worlds": "Světy",
+    "community": "Komunita",
+    "team": "A-Team",
+    "vote": "Hlasování",
+    "news": "Novinky",
+    "store": "Store",
+    "rules": "Pravidla",
+    "account": "Můj účet"
+  },
+  "footer": {
+    "title": "Valtherea",
+    "description": "Fantasy Minecraft server pro hráče, kteří chtějí jasný start, přehledný web a komunitu na jednom místě.",
+    "trust": "IP serveru: play.valtherea.eu. Nákupy a doručení řešíme přes propojený Minecraft účet.",
+    "exploreTitle": "Prozkoumat",
+    "legalTitle": "Důležité odkazy",
+    "professions": "Profese",
+    "home": "Domů",
+    "worlds": "Světy",
+    "community": "Komunita",
+    "account": "Můj účet",
+    "store": "Store",
+    "terms": "Obchodní podmínky",
+    "legal": "Právní informace",
+    "privacy": "Ochrana osobních údajů",
+    "cookies": "Cookies",
+    "refunds": "Refundace a reklamace",
+    "supportEmail": "support@valtherea.eu",
+    "operator": "Provozovatel: [Název provozovatele], IČO: [IČO], sídlo: [sídlo provozovatele]. Podpora: support@valtherea.eu.",
+    "disclaimer": "Tento server není nijak spojen se společností Mojang Studios ani Microsoftem."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Minecraft server",
+      "title": "VALTHEREA.EU",
+      "description": "Český fantasy survival Minecraft server. Zkopíruj IP, připoj se ve hře a pro novinky nebo pomoc skoč na Discord.",
+      "ipLabel": "IP serveru",
+      "copyIp": "Zkopírovat IP",
+      "copyDone": "IP zkopírována",
+      "copyFailed": "Kopírování se nepovedlo. Označ IP a zkopíruj ji ručně.",
+      "primary": "Pravidla",
+      "secondary": "Store",
+      "discord": "Discord",
+      "facts": {
+        "0": "Java Edition 1.21.8",
+        "1": "Bez whitelistu",
+        "2": "Discord komunita"
+      }
+    },
+    "start": {
+      "eyebrow": "",
+      "title": "Začni tady",
+      "description": "Nejdřív se dostaň do hry. Účet a store řeš až ve chvíli, kdy chceš webové funkce nebo nákup.",
+      "steps": {
+        "0": {
+          "kicker": "1. Zkopíruj IP",
+          "title": "play.valtherea.eu",
+          "description": "Tuhle adresu vlož v Minecraftu do seznamu serverů."
+        },
+        "1": {
+          "kicker": "2. Připoj se",
+          "title": "Otevři Minecraft Java Edition",
+          "description": "Přidej server, vyber Valthereu a můžeš začít hrát."
+        },
+        "2": {
+          "kicker": "3. Přidej se na Discord",
+          "title": "Novinky, komunita a support",
+          "description": "Když tápeš nebo chceš být u eventů, Discord je hlavní místo."
+        },
+        "3": {
+          "kicker": "4. Účet a store",
+          "title": "Řeš je až pro webové funkce",
+          "description": "Účet potřebuješ hlavně pro propojení Minecraftu, objednávky a doručení výhod."
+        }
+      }
+    },
+    "highlights": {
+      "eyebrow": "Co tu najdeš",
+      "title": "Vyber si, co tě zajímá nejvíc",
+      "description": "Každá sekce řeší jednu konkrétní věc, ne jen obecnou prezentaci.",
+      "cards": {
+        "0": {
+          "kicker": "Profese",
+          "title": "Jak vydělávat",
+          "description": "Vyber si roli, zjisti co děláš a proč se ti vyplatí."
+        },
+        "1": {
+          "kicker": "Světy",
+          "title": "Kde budeš hrát",
+          "description": "Survival jako hlavní svět a další módy připravené do budoucna."
+        },
+        "2": {
+          "kicker": "Komunita",
+          "title": "Kde řešit pomoc a eventy",
+          "description": "Discord, hráči a tým na jednom místě."
+        }
+      }
+    },
+    "join": {
+      "title": "IP: play.valtherea.eu",
+      "description": "Nejrychlejší cesta je přidat server ve hře. Discord použij pro pomoc a novinky, účet až pro propojení nebo nákup.",
+      "primary": "Otevřít Discord",
+      "secondary": "Můj účet"
+    }
+  },
+  "professions": {
+    "hero": {
+      "eyebrow": "Profese",
+      "title": "Profese",
+      "description": "Vyber si roli podle toho, jak chceš hrát, vydělávat a podporovat svůj dlouhodobý progres."
+    },
+    "cards": {
+      "0": {
+        "title": "Těžař a farmář",
+        "description": "Stabilní základ pro hráče, kteří chtějí pravidelný výdělek a klidnější tempo."
+      },
+      "1": {
+        "title": "Lovec a dobrodruh",
+        "description": "Víc akce, eventů a pohybu po světě. Hodí se pro hráče, kteří chtějí odměny za aktivní hru."
+      },
+      "2": {
+        "title": "Obchodník",
+        "description": "Silnější orientace na směnu, nabídku surovin a dlouhodobé budování vlastního zázemí."
+      }
+    }
+  },
+  "market": {
+    "hero": {
+      "eyebrow": "Ekonomika",
+      "title": "Ekonomika",
+      "description": "Přehled toho, jak vydělávat, obchodovat a dlouhodobě růst bez chaosu."
+    },
+    "cards": {
+      "0": {
+        "title": "Ekonomika je navázaná na hraní",
+        "description": "Profese, obchodování a komunitní aktivita se mají doplňovat. Store slouží jako podpora serveru, ne jako náhrada herního postupu."
+      },
+      "1": {
+        "title": "Co počítat do běžného progresu",
+        "description": "Běžný růst na serveru stojí na aktivitě, trhu a zapojení do komunity.",
+        "list": {
+          "0": "profese a jejich výdělek",
+          "1": "obchod mezi hráči",
+          "2": "eventové odměny a hlasování"
+        }
+      }
+    }
+  },
+  "worlds": {
+    "hero": {
+      "eyebrow": "Světy",
+      "title": "Světy",
+      "description": "Kde hraješ teď a jaké módy se chystají dál."
+    },
+    "cards": {
+      "0": {
+        "title": "Survival",
+        "description": "Tady stavíš základnu, vybíráš profesi, obchoduješ a hraješ s ostatními. Je to hlavní mód serveru, kde běží komunita i ekonomika."
+      },
+      "1": {
+        "title": "Budoucí módy",
+        "description": "Další světy mají rozšířit nabídku hraní bez toho, aby rozbily hlavní Survival."
+      },
+      "2": {
+        "title": "Skyblock, Skywars a eventové mapy",
+        "description": "Vedle hlavního světa se počítá s rychlejšími a specializovanými režimy pro kratší session i sezónní výzvy."
+      }
+    }
+  },
+  "community": {
+    "hero": {
+      "eyebrow": "Komunita",
+      "title": "Komunita",
+      "description": "Discord, novinky a prostor pro hráče, kteří chtějí být u všeho důležitého."
+    },
+    "cards": {
+      "0": {
+        "title": "Discord je hlavní rozcestník",
+        "description": "Najdeš tu podporu, oznámení, eventy i prostor pro zpětnou vazbu. Pokud řešíš účet, nákup nebo server, začni právě tady."
+      },
+      "1": {
+        "title": "Co na Discordu řešit",
+        "description": "Vše důležité kolem serveru držíme na jednom místě, aby se hráči nemuseli proklikávat několika kanály.",
+        "list": {
+          "0": "dotazy ke store a objednávkám",
+          "1": "informace k eventům",
+          "2": "nahlášení problému nebo bugu"
+        }
+      }
+    }
+  },
+  "team": {
+    "hero": {
+      "eyebrow": "A-Team",
+      "title": "A-Team",
+      "description": "Lidé, kteří se starají o komunitu, provoz a podporu hráčů."
+    },
+    "overview": {
+      "0": {
+        "title": "Vedení a provoz",
+        "description": "Hlavní koordinace serveru, rozhodování o směru projektu a dohled nad klíčovými systémy."
+      },
+      "1": {
+        "title": "Podpora hráčů",
+        "description": "Pomoc se startem, řešení běžných problémů a první kontakt pro komunitu."
+      },
+      "2": {
+        "title": "Zákulisí serveru",
+        "description": "Technika, grafika, stavby a další role, bez kterých by Valtherea dlouhodobě nemohla fungovat."
+      }
+    },
+    "roster": {
+      "title": "Členové A-Teamu",
+      "description": "Aktuální roster držíme jako samostatná data, aby se role i jména daly snadno rozšířit bez přepisování celé stránky."
+    },
+    "roles": {
+      "empty": "Volná pozice",
+      "owner": {
+        "title": "Owner",
+        "description": "Směr serveru, klíčová rozhodnutí a dlouhodobá vize."
+      },
+      "ghost": {
+        "title": "Zákulisí",
+        "description": "Interní podpora chodu projektu a citlivé provozní věci."
+      },
+      "leader": {
+        "title": "Koordinace",
+        "description": "Každodenní koordinace týmu a provozu serveru."
+      },
+      "helper": {
+        "title": "Podpora",
+        "description": "První kontakt pro hráče, onboarding a běžná pomoc."
+      },
+      "developer": {
+        "title": "Vývoj",
+        "description": "Technické úpravy, automatizace a systémové zázemí."
+      },
+      "builder": {
+        "title": "Stavby",
+        "description": "Spawn, město a další sdílená místa ve světě."
+      },
+      "graphic": {
+        "title": "Design",
+        "description": "Vizuální styl webu, grafiky a prezentačních materiálů."
+      },
+      "moderator": {
+        "title": "Moderace",
+        "description": "Dohled nad komunitou, pravidly a férovým prostředím."
+      },
+      "creator": {
+        "title": "Obsah",
+        "description": "Eventy, videa, screenshoty a další veřejný obsah."
+      }
+    }
+  },
+  "vote": {
+    "hero": {
+      "eyebrow": "Hlasování",
+      "title": "Hlasování",
+      "description": "Hlasuj, získej odměnu a opakuj to každý den."
+    },
+    "cards": {
+      "0": {
+        "title": "1. Hlasuj",
+        "description": "Otevři vote portál a odešli hlas pro Valtherea."
+      },
+      "1": {
+        "title": "2. Získej odměnu",
+        "description": "Po hlasování si ve hře vyzvedneš denní bonus."
+      },
+      "2": {
+        "title": "3. Opakuj denně",
+        "description": "Pravidelným hlasováním držíš streak a sbíráš další odměny."
+      }
+    }
+  },
+  "news": {
+    "hero": {
+      "eyebrow": "Novinky",
+      "title": "Novinky",
+      "description": "Stručný přehled změn, milníků a toho, co se na serveru děje."
+    },
+    "cards": {
+      "0": {
+        "kicker": "Aktuálně",
+        "title": "Na serveru ladíme další vylepšení",
+        "description": "Průběžně připravujeme úpravy, které mají zpříjemnit hraní, nákup i orientaci na webu."
+      },
+      "1": {
+        "kicker": "Komunita",
+        "title": "Discord zůstává hlavním rozcestníkem",
+        "description": "Novinky, support a eventy držíme primárně na Discordu, aby byly rychle dostupné všem hráčům."
+      }
+    }
+  },
+  "store": {
+    "hero": {
+      "eyebrow": "Store",
+      "title": "Store",
+      "description": "Balíčky pro podporu serveru a digitální výhody. Nákup se váže na propojený Minecraft účet."
+    },
+    "essentials": {
+      "0": {
+        "kicker": "Doručení",
+        "title": "Digitální výhody pro propojený účet",
+        "description": "Balíčky doručujeme na Minecraft účet, který máš správně propojený v účtu."
+      },
+      "1": {
+        "kicker": "Podpora",
+        "title": "Pomoc s objednávkou",
+        "description": "Když se cokoli zadrhne, support řešíme přes Discord a e-mail bez zbytečného čekání."
+      },
+      "2": {
+        "kicker": "Přehled",
+        "title": "Balíčky pro hráče",
+        "description": "Výběr je postavený tak, aby bylo hned jasné, co si vybíráš a co získáš."
+      }
+    },
+    "catalog": {
+      "title": "Nabídka balíčků",
+      "description": "Vyber balíček, přihlas se a zkontroluj propojení Minecraft účtu, aby doručení proběhlo správně.",
+      "voyaer": {
+        "label": "Starter rank",
+        "title": "Voyager",
+        "description": "Základní supporter balíček pro první premium vstup do Valtherey.",
+        "price": "79 Kč",
+        "features": {
+          "0": "prefix v chatu",
+          "1": "kosmetický trail",
+          "2": "menší quality of life bonus"
+        }
+      },
+      "warden": {
+        "label": "Doporučeno",
+        "title": "Warden",
+        "description": "Nejoblíbenější supporter balíček s rankem a rozšířenou kosmetikou.",
+        "price": "149 Kč",
+        "features": {
+          "0": "vše z Voyager",
+          "1": "další kosmetické efekty",
+          "2": "rozšířená utility vrstva"
+        }
+      },
+      "luminary": {
+        "label": "Premium rank",
+        "title": "Luminary",
+        "description": "Vyšší premium supporter balíček pro reprezentativní profil.",
+        "price": "299 Kč",
+        "features": {
+          "0": "prémiový chat tag",
+          "1": "rozšířená kosmetika",
+          "2": "dekorativní bonusy"
+        }
+      },
+      "uncommon": {
+        "label": "Crate key",
+        "title": "Uncommon Key",
+        "description": "Jeden klíč pro Uncommon crate.",
+        "price": "20 Kč",
+        "features": {
+          "0": "1 Uncommon key"
+        }
+      },
+      "rare": {
+        "label": "Crate key",
+        "title": "Rare Key",
+        "description": "Jeden klíč pro Rare crate.",
+        "price": "30 Kč",
+        "features": {
+          "0": "1 Rare key"
+        }
+      },
+      "legendary": {
+        "label": "Crate key",
+        "title": "Legendary Key",
+        "description": "Jeden klíč pro Legendary crate.",
+        "price": "75 Kč",
+        "features": {
+          "0": "1 Legendary key"
+        }
+      },
+      "luminite": {
+        "label": "Limited crate key",
+        "title": "Luminite Key",
+        "description": "Limitovaný produkt s jedním klíčem pro Luminite crate.",
+        "price": "125 Kč",
+        "features": {
+          "0": "1 Luminite key"
+        }
+      },
+      "lildragon": {
+        "label": "Limited crate key",
+        "title": "Little Dragon Key",
+        "description": "Limitovaný produkt s jedním klíčem pro Little Dragon crate.",
+        "price": "125 Kč",
+        "features": {
+          "0": "1 Little Dragon key"
+        }
+      }
+    }
+  },
+  "login": {
+    "hero": {
+      "eyebrow": "Přihlášení",
+      "title": "Přihlas se",
+      "description": "Účet potřebuješ pro webové funkce, propojení Minecraftu a bezpečné doručení nákupů."
+    },
+    "summary": {
+      "0": {
+        "kicker": "1. Přístup k účtu",
+        "title": "Přihlášení nebo registrace",
+        "description": "Účet drží objednávky, propojení herního jména a navazující kroky před checkoutem."
+      },
+      "1": {
+        "kicker": "2. Další krok",
+        "title": "Po přihlášení pokračuješ do účtu",
+        "description": "Vybraný balíček se může přenést automaticky a hráč jen zkontroluje stav propojení."
+      }
+    },
+    "flow": {
+      "title": "Účet pro web a nákupy",
+      "description": "Po přihlášení uvidíš, jestli je Minecraft účet propojený a jestli může store bezpečně doručit výhody.",
+      "primary": "Otevřít účet",
+      "secondary": "Zpět na store"
+    }
+  },
+  "account": {
+    "hero": {
+      "eyebrow": "Můj účet",
+      "title": "Můj účet",
+      "description": "Tady propojíš Minecraft a Discord, zkontroluješ připravenost pro nákup a najdeš objednávky."
+    },
+    "summary": {
+      "0": {
+        "kicker": "Souhrn účtu",
+        "title": "Základní údaje",
+        "description": "Hráč hned vidí e-mail, Minecraft účet a poslední aktivitu bez nutnosti hledat detailní nastavení."
+      },
+      "1": {
+        "kicker": "Stav propojení",
+        "title": "Co ještě chybí",
+        "description": "Napojení účtu drží doručování výhod bezpečně a pomáhá vyhnout se chybám při objednávce."
+      },
+      "2": {
+        "kicker": "Nákup a platba",
+        "title": "Připravenost na checkout",
+        "description": "Platba se zpřístupní až ve chvíli, kdy je účet připravený pro bezpečné doručení digitálních výhod."
+      }
+    },
+    "status": {
+      "title": "Jak účet připravit",
+      "description": "Propojení stačí řešit ve chvíli, kdy chceš používat webové funkce, podporu nebo store.",
+      "cards": {
+        "0": {
+          "kicker": "Propojení",
+          "title": "Minecraft a Discord",
+          "description": "Obě vazby dávají supportu i store flow jistotu, že výhody dorazí správnému hráči.",
+          "list": {
+            "0": "ověř e-mail a hlavní účet",
+            "1": "propoj Minecraft jméno",
+            "2": "napoj Discord pro support a oznámení"
+          }
+        },
+        "1": {
+          "kicker": "Objednávky",
+          "title": "Historie a další kroky",
+          "description": "Hráč má hned po ruce stav posledních objednávek i to, co ještě potřebuje dokončit.",
+          "list": {
+            "0": "sledování posledních objednávek",
+            "1": "jasně čitelný stav účtu",
+            "2": "přímý návrat do store bez zmatení"
+          }
+        }
+      }
+    }
+  },
+  "checkoutSuccess": {
+    "hero": {
+      "eyebrow": "Store",
+      "title": "Ověř stav platby",
+      "description": "Návrat z platební brány sám platbu nepotvrzuje. Skutečný stav objednávky vždy načteme z backendu v účtu."
+    },
+    "cards": {
+      "0": {
+        "title": "Co dál",
+        "description": "Otevři svůj účet a zkontroluj serverem ověřený stav platby i doručení."
+      },
+      "1": {
+        "title": "Když se něco zdrží",
+        "description": "Zpracování webhooku může chvíli pokračovat na pozadí. Nákup neopakuj a při delším zdržení kontaktuj podporu."
+      }
+    },
+    "cta": {
+      "title": "Měj přehled o dalším kroku",
+      "description": "Nový flow tě po platbě vede přímo do účtu nebo zpět do store bez zbytečného technického textu.",
+      "primaryLabel": "Otevřít účet",
+      "secondaryLabel": "Zpět do store"
+    }
+  },
+  "rules": {
+    "hero": {
+      "eyebrow": "Pravidla",
+      "title": "Pravidla",
+      "description": "Krátký přehled základních pravidel serveru, komunikace a nákupního chování."
+    },
+    "cards": {
+      "0": {
+        "title": "Na serveru",
+        "description": "Pravidla mají držet férové hraní a bezpečný prostor pro komunitu.",
+        "list": {
+          "0": "nehraj nefér a neobcházej mechaniky",
+          "1": "respektuj ostatní hráče",
+          "2": "nenič úmyslně cizí progres"
+        }
+      },
+      "1": {
+        "title": "Na webu a ve store",
+        "description": "Stejná jasnost platí i pro účet a objednávkový flow.",
+        "list": {
+          "0": "nakupuj jen pro vlastní účet",
+          "1": "nesdílej přístupové údaje",
+          "2": "řeš problémy přes oficiální support"
+        }
+      }
+    }
+  },
+  "terms": {
+    "hero": {
+      "eyebrow": "Store",
+      "title": "Obchodní podmínky",
+      "description": "Pravidla pro nákup digitálních výhod, ranků, klíčů a dalších balíčků pro Minecraft server Valtherea."
+    },
+    "cards": {
+      "0": {
+        "title": "Provozovatel a kontakt",
+        "description": "Store provozuje [Název provozovatele], IČO: [IČO], se sídlem [sídlo provozovatele], zapsaný/á [údaj o zápisu]. Pro objednávky, reklamace a podporu používej support@valtherea.eu.",
+        "list": {
+          "0": "web: valtherea.eu",
+          "1": "server: play.valtherea.eu",
+          "2": "support: support@valtherea.eu"
+        }
+      },
+      "1": {
+        "title": "Co je předmětem nákupu",
+        "description": "Předmětem nákupu jsou digitální výhody poskytované v prostředí Minecraft serveru Valtherea. Může jít hlavně o ranky, kosmetické prvky, crate klíče, sezónní balíčky nebo jiné herní benefity uvedené u konkrétní položky.",
+        "list": {
+          "0": "výhody nejsou fyzické zboží",
+          "1": "výhody se doručují na propojený Minecraft účet",
+          "2": "výhody nemají peněžní hodnotu a nejdou směnit zpět za peníze"
+        }
+      },
+      "2": {
+        "title": "Objednávka a platba",
+        "description": "Objednávka vzniká odesláním nákupu ve store a uhrazením ceny přes dostupnou platební bránu. Před platbou je nutné mít správně propojený webový účet, Minecraft účet a případně Discord pro support.",
+        "list": {
+          "0": "ceny jsou uvedené v Kč",
+          "1": "platební údaje zpracovává platební brána",
+          "2": "po dokončení platby se objednávka eviduje v účtu"
+        }
+      },
+      "3": {
+        "title": "Doručení digitálních výhod",
+        "description": "Digitální výhody se doručují automaticky nebo poloautomaticky po potvrzení platby. Běžně proběhne doručení během několika minut; při technickém problému může být nutný ruční zásah podpory.",
+        "list": {
+          "0": "hráč odpovídá za správně propojený účet",
+          "1": "chybné propojení může doručení zdržet",
+          "2": "support může požádat o ID objednávky a herní jméno"
+        }
+      },
+      "4": {
+        "title": "Pravidla serveru a změny hry",
+        "description": "Používání zakoupených výhod se řídí pravidly serveru. Výhody nesmí sloužit k obcházení pravidel, exploitům ani narušování férového prostředí. Server může procházet aktualizacemi, resetem mapy nebo úpravami balancu.",
+        "list": {
+          "0": "porušení pravidel může vést k omezení účtu bez nároku na kompenzaci",
+          "1": "trvalé ranky se zpravidla zachovávají i při běžných resetech",
+          "2": "spotřební položky a sezónní obsah mohou být časově omezené"
+        }
+      },
+      "5": {
+        "title": "Odstoupení, reklamace a spory",
+        "description": "U digitálního obsahu dodaného ihned po výslovném souhlasu může být právo na odstoupení omezené. Pokud výhoda nebyla dodána nebo neodpovídá popisu, kontaktuj podporu. Mimosoudní řešení spotřebitelských sporů zajišťuje Česká obchodní inspekce.",
+        "list": {
+          "0": "reklamace posílej na support@valtherea.eu",
+          "1": "přilož e-mail účtu, ID objednávky a popis problému",
+          "2": "ADR: Česká obchodní inspekce, coi.gov.cz"
+        }
+      }
+    }
+  },
+  "privacy": {
+    "hero": {
+      "eyebrow": "Soukromí",
+      "title": "Ochrana osobních údajů",
+      "description": "Jaké údaje zpracováváme kvůli účtu, propojení Minecraftu, objednávkám, platbám a podpoře."
+    },
+    "cards": {
+      "0": {
+        "title": "Správce údajů",
+        "description": "Správcem osobních údajů je [Název provozovatele], IČO: [IČO], se sídlem [sídlo provozovatele]. Kontakt pro žádosti k osobním údajům: support@valtherea.eu.",
+        "list": {
+          "0": "projekt: Valtherea",
+          "1": "web: valtherea.eu",
+          "2": "kontaktní e-mail: support@valtherea.eu"
+        }
+      },
+      "1": {
+        "title": "Jaké údaje zpracováváme",
+        "description": "Zpracováváme údaje nutné pro provoz účtu, doručení digitálních výhod a řešení podpory. Typicky jde o e-mail, ID účtu, Minecraft jméno/UUID, Discord identifikátor, objednávky, platební stav a technické záznamy.",
+        "list": {
+          "0": "neukládáme celé údaje platební karty",
+          "1": "platební údaje zpracovává platební brána",
+          "2": "support může uchovat komunikaci k vyřízení požadavku"
+        }
+      },
+      "2": {
+        "title": "Účely a právní základy",
+        "description": "Údaje používáme pro vytvoření a správu účtu, plnění smlouvy, doručení objednávky, reklamace, účetní povinnosti, zabezpečení služby a ochranu proti zneužití.",
+        "list": {
+          "0": "plnění smlouvy: účet, objednávka, doručení",
+          "1": "právní povinnost: účetní a daňové doklady",
+          "2": "oprávněný zájem: bezpečnost, prevence zneužití a support"
+        }
+      },
+      "3": {
+        "title": "Kdo může údaje zpracovávat",
+        "description": "Údaje mohou zpracovávat technické služby nezbytné pro provoz webu, hostingu, databáze, e-mailu, Discord podpory a plateb. Služby vybíráme tak, aby odpovídaly účelu zpracování.",
+        "list": {
+          "0": "hosting a infrastruktura",
+          "1": "platební brána a účetnictví",
+          "2": "komunikační a support nástroje"
+        }
+      },
+      "4": {
+        "title": "Tvoje práva",
+        "description": "Máš právo požádat o přístup k údajům, opravu, výmaz, omezení zpracování, přenositelnost nebo vznést námitku. Pokud nejsi spokojený/á s vyřízením, můžeš se obrátit na Úřad pro ochranu osobních údajů.",
+        "list": {
+          "0": "žádosti posílej na support@valtherea.eu",
+          "1": "u účetních dokladů může být uchování vyžadováno zákonem",
+          "2": "dozorový úřad: ÚOOÚ, uoou.gov.cz"
+        }
+      }
+    }
+  },
+  "refunds": {
+    "hero": {
+      "eyebrow": "Refundace",
+      "title": "Refundace a reklamace",
+      "description": "Jak řešíme neúspěšné doručení, chybné objednávky, reklamace a žádosti o vrácení platby."
+    },
+    "cards": {
+      "0": {
+        "title": "Nejdřív kontaktuj podporu",
+        "description": "Většina problémů vznikne zpožděným potvrzením platby, špatně propojeným účtem nebo čekáním na plugin doručení. Než otevřeš spor u platební brány, napiš nám na support.",
+        "list": {
+          "0": "e-mail účtu",
+          "1": "ID objednávky nebo datum platby",
+          "2": "Minecraft jméno a popis problému"
+        }
+      },
+      "1": {
+        "title": "Kdy uznáme reklamaci",
+        "description": "Reklamaci řešíme hlavně tehdy, když zaplacená digitální výhoda nebyla doručena, byla doručena na nesprávný účet z důvodu chyby systému nebo se podstatně liší od popisu ve store.",
+        "list": {
+          "0": "chybné nebo nedokončené doručení",
+          "1": "technická chyba na straně serveru",
+          "2": "nesoulad zakoupeného balíčku s popisem"
+        }
+      },
+      "2": {
+        "title": "Kdy refund nemusí být možný",
+        "description": "Po dodání digitální výhody může být právo na odstoupení omezené, pokud hráč předem souhlasil s okamžitým dodáním. Refund obvykle neposkytujeme za ban kvůli porušení pravidel, zneužití výhod, běžný wipe mapy nebo již spotřebované položky.",
+        "list": {
+          "0": "porušení pravidel serveru",
+          "1": "spotřebované crate klíče nebo sezónní obsah",
+          "2": "reset mapy, pokud výhoda není výslovně určena jako přenosná"
+        }
+      },
+      "3": {
+        "title": "Lhůty a způsob řešení",
+        "description": "Požadavky řešíme bez zbytečného odkladu, typicky přes e-mail nebo Discord support. Pokud je refund uznán, vrací se platba stejnou cestou, jakou byla přijata, pokud se nedohodneme jinak.",
+        "list": {
+          "0": "běžná první reakce supportu: do několika pracovních dnů",
+          "1": "u složitějších případů můžeme žádat doplnění podkladů",
+          "2": "spotřebitelský spor lze řešit přes ČOI"
+        }
+      }
+    }
+  },
+  "notFound": {
+    "eyebrow": "404",
+    "title": "Tahleta stránka už tu není",
+    "description": "Refactor webu mění strukturu adres, takže některé staré cesty už nemusí existovat.",
+    "body": "Vrať se na hlavní stránku nebo pokračuj přes komunitu, odkud se dostaneš dál.",
+    "primary": "Domů",
+    "secondary": "Komunita"
+  },
+  "legal": {
+    "hero": {
+      "eyebrow": "Právní informace",
+      "title": "Právní informace",
+      "description": "Identifikace provozovatele, kontakty, právní upozornění a vztah k Minecraftu, Mojangu a Microsoftu."
+    },
+    "cards": {
+      "0": {
+        "title": "Identifikace provozovatele",
+        "description": "Provozovatelem webu, store a komunitního projektu Valtherea je [Název provozovatele], IČO: [IČO], se sídlem [sídlo provozovatele], zapsaný/á [údaj o zápisu].",
+        "list": {
+          "0": "kontaktní e-mail: support@valtherea.eu",
+          "1": "doména: valtherea.eu",
+          "2": "Minecraft server: play.valtherea.eu"
+        }
+      },
+      "1": {
+        "title": "Vztah k Minecraftu",
+        "description": "Valtherea je neoficiální komunitní Minecraft server. Není oficiálním produktem, službou ani událostí Minecraftu a není schválena, provozována ani jinak spojena s Mojang Studios nebo Microsoftem.",
+        "list": {
+          "0": "Minecraft je značka vlastníků práv",
+          "1": "server používá vlastní komunitní obsah a pravidla",
+          "2": "hráč musí mít platnou licenci Minecraftu"
+        }
+      },
+      "2": {
+        "title": "Právní dokumenty",
+        "description": "Pro používání webu a store jsou důležité obchodní podmínky, zásady ochrany osobních údajů, informace o cookies, pravidla serveru a refund/reklamační postup.",
+        "list": {
+          "0": "obchodní podmínky: /terms",
+          "1": "ochrana osobních údajů: /privacy",
+          "2": "cookies a refundace: /cookies, /refunds"
+        }
+      }
+    }
+  },
+  "cookies": {
+    "hero": {
+      "eyebrow": "Cookies",
+      "title": "Cookies",
+      "description": "Jaké cookies a podobné technologie používáme pro přihlášení, bezpečnost a provoz webu."
+    },
+    "cards": {
+      "0": {
+        "title": "Nezbytné cookies",
+        "description": "Web používá technicky nezbytné cookies hlavně pro přihlášení, session, bezpečnostní ochranu a správné fungování účtu nebo store. Bez nich by nešlo bezpečně držet přihlášení ani objednávkové flow.",
+        "list": {
+          "0": "session cookie pro přihlášení",
+          "1": "bezpečnostní a CSRF ochrana",
+          "2": "provozní stav objednávkového flow"
+        }
+      },
+      "1": {
+        "title": "Analytika a marketing",
+        "description": "Aktuálně nepočítáme s ukládáním marketingových cookies bez souhlasu. Pokud by se později přidala analytika nebo reklama, musí být viditelně popsána a spouštěna až podle platného souhlasu.",
+        "list": {
+          "0": "žádné reklamní cookies bez souhlasu",
+          "1": "případná analytika musí být popsána",
+          "2": "souhlas půjde odvolat nebo změnit"
+        }
+      },
+      "2": {
+        "title": "Jak cookies spravovat",
+        "description": "Cookies můžeš omezit v nastavení prohlížeče. Pokud vypneš nezbytné cookies, nemusí fungovat přihlášení, účet, checkout nebo doručení výhod.",
+        "list": {
+          "0": "nastavení najdeš ve svém prohlížeči",
+          "1": "smazání session cookie tě odhlásí",
+          "2": "dotazy posílej na support@valtherea.eu"
+        }
+      }
+    }
+  }
+}

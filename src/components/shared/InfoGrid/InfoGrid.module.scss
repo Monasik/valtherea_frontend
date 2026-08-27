@@ -1,0 +1,29 @@
+.section { padding: 1.25rem 0 5rem; }
+.inner { width: min(72.5rem, calc(100% - 2rem)); margin: 0 auto; }
+.grid { display: grid; gap: 1.25rem; }
+
+.team { padding: 10.3rem 0 11rem; }
+.team .inner,
+.account .inner,
+.store .inner { width: min(86.25rem, calc(100% - 2rem)); }
+.team .grid,
+.account .grid,
+.store .grid { gap: 3.6rem; }
+.account { padding: 4rem 0 2rem; }
+.account .grid > * { min-height: 23.375rem; }
+.store { min-height: 34rem; padding: 7.5rem 0 6rem; background: #0d1526; }
+
+@media (min-width: 768px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1024px) {
+  .grid[data-columns="3"] { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .grid[data-columns="4"] { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+@media (max-width: 900px) {
+  .team,
+  .store { padding-block: 4rem; }
+  .team .grid,
+  .account .grid,
+  .store .grid { gap: 1.25rem; }
+  .account .grid > * { min-height: 20rem; }
+}

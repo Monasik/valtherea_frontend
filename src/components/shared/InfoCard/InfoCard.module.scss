@@ -1,0 +1,10 @@
+.card { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 20rem; height: 100%; padding: 2.6rem 3rem; border: 1.5px solid #6ab0d9; border-radius: 3.2rem; background: #182238; text-align: center; }
+.featured { border-color: #6ab0d9; }
+.kicker { color: #6884b5; font-family: var(--font-heading), sans-serif; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+.title { margin: 2.35rem 0 0; color: #f8fafc; font-family: var(--font-interface), sans-serif; font-size: 1.05rem; font-weight: 700; text-transform: uppercase; }
+.title::before { content: ""; display: block; width: 4rem; height: 0.2rem; margin: 0 auto 2.2rem; background: #6884b5; }
+.kicker + .title::before { display: none; }
+.description { margin: 2.35rem 0 0; color: #cbd5e1; font-size: 1.1rem; line-height: 1.42; }
+.list { display: grid; gap: 0.15rem; margin: 1.2rem 0 0; padding: 0; color: #cbd5e1; font-size: 1rem; list-style: none; }
+
+@media (max-width: 700px) { .card { min-height: 16rem; padding: 2rem 1.4rem; border-radius: 2rem; } }

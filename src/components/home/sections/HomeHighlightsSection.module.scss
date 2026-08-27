@@ -1,0 +1,12 @@
+.section { min-height: 64.1rem; padding: 4.94rem 0 7rem; background: #0d1526; }
+.inner { width: min(100.25rem, calc(100% - 2rem)); margin: 0 auto; text-align: center; }
+.inner > h2 { max-width: 100.25rem; margin: 0 auto; color: #fff; font-family: var(--font-accent), sans-serif; font-size: clamp(3rem, 5vw, 6rem); line-height: 1.28; text-transform: uppercase; }
+.description { margin: 1.6rem auto 0; color: #fff; font-size: 1.5rem; }
+.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 11.25rem; width: min(86.8rem, 100%); margin: 7rem auto 0; }
+.card { display: grid; align-content: start; min-height: 23.4rem; padding: 2.7rem 2rem 2rem; border: 1.5px solid #6ab0d9; border-radius: 3.2rem; background: #182238; }
+.card span { color: #6884b5; font-family: var(--font-heading), sans-serif; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; }
+.card h3 { margin: 4rem 0 0; color: #f8fafc; font-family: var(--font-interface), sans-serif; font-size: 1rem; font-weight: 800; text-transform: uppercase; }
+.card p { margin: 4rem 0 0; color: #cbd5e1; font-size: 1.1rem; line-height: 1.42; }
+
+@media (max-width: 1100px) { .grid { gap: 1.5rem; } }
+@media (max-width: 760px) { .section { min-height: 0; padding-top: 6rem; } .description { font-size: 1rem; } .grid { grid-template-columns: 1fr; max-width: 28rem; margin-top: 3rem; } .card { min-height: 18rem; } }

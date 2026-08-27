@@ -1,0 +1,414 @@
+.section {
+  padding: 1.5rem 0 0;
+}
+
+.inner {
+  width: min(1160px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.surface {
+  display: grid;
+  gap: 1rem;
+}
+
+.intro h2 {
+  margin: 0 0 0.65rem;
+}
+
+.intro p {
+  color: var(--color-text-muted);
+  max-width: 42rem;
+}
+
+.banner {
+  padding: 0.95rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  background: rgba(15, 23, 42, 0.92);
+}
+
+.banner--success {
+  border-color: rgba(45, 212, 191, 0.28);
+  background: rgba(17, 94, 89, 0.22);
+}
+
+.banner--warning {
+  border-color: rgba(251, 191, 36, 0.26);
+  background: rgba(120, 53, 15, 0.22);
+}
+
+.banner--error {
+  border-color: rgba(251, 113, 133, 0.25);
+  background: rgba(127, 29, 29, 0.22);
+}
+
+.returnPanel {
+  display: grid;
+  gap: 0.85rem;
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  border: 1px solid rgba(103, 232, 249, 0.28);
+  background: linear-gradient(180deg, rgba(14, 42, 63, 0.86), rgba(13, 18, 34, 0.94));
+}
+
+.returnPanel h3,
+.returnPanel p {
+  margin: 0;
+}
+
+.returnPanel p {
+  color: var(--color-text-muted);
+}
+
+.returnPanel .kicker {
+  margin-bottom: 0;
+}
+
+.returnPanel button {
+  width: max-content;
+}
+
+.returnStatusGrid,
+.orderDetails {
+  display: grid;
+  gap: 0.65rem;
+  margin: 0;
+}
+
+.returnStatusGrid {
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+
+.returnStatusGrid div,
+.orderDetails div {
+  display: grid;
+  gap: 0.2rem;
+  padding: 0.75rem;
+  border: 1px solid rgba(148, 163, 184, 0.14);
+  border-radius: 0.85rem;
+  background: rgba(8, 15, 28, 0.48);
+}
+
+.returnStatusGrid dt,
+.orderDetails dt {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+.returnStatusGrid dd,
+.orderDetails dd {
+  margin: 0;
+  font-weight: 800;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.card,
+.authSurface {
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid rgba(148, 163, 184, 0.14);
+  background: linear-gradient(180deg, rgba(19, 28, 48, 0.9), rgba(13, 18, 34, 0.9));
+}
+
+.kicker {
+  display: inline-block;
+  margin-bottom: 0.85rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-cyan);
+}
+
+.definitionList,
+.statusList {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.definitionList div {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.definitionList dt {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+}
+
+.definitionList dd {
+  margin: 0;
+  font-weight: 700;
+}
+
+.commandHint {
+  padding: 0.75rem 0.85rem;
+  border-radius: 0.85rem;
+  background: rgba(8, 15, 28, 0.72);
+  border: 1px solid rgba(103, 232, 249, 0.22);
+}
+
+.commandHint code {
+  font-weight: 800;
+  color: var(--color-cyan);
+}
+
+.accountAnchor {
+  scroll-margin-top: 7rem;
+}
+
+.form {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.field span {
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.field input {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  background: rgba(8, 15, 28, 0.88);
+  color: var(--color-text);
+  font: inherit;
+}
+
+.field input:focus {
+  outline: 2px solid rgba(103, 232, 249, 0.35);
+  border-color: rgba(103, 232, 249, 0.45);
+}
+
+.buttonRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.card > .buttonRow {
+  margin-top: 1rem;
+}
+
+.orders {
+  display: grid;
+  gap: 0.85rem;
+  margin-top: 1rem;
+}
+
+.orderRow {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: rgba(8, 15, 28, 0.72);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+.orderHeader {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: start;
+}
+
+.orderHeader strong,
+.orderId {
+  display: block;
+}
+
+.orderId {
+  margin-bottom: 0.25rem;
+  color: var(--color-text-muted);
+  font-size: 0.82rem;
+}
+
+.orderStatus {
+  padding: 0.45rem 0.65rem;
+  border-radius: 999px;
+  color: var(--color-cyan);
+  background: rgba(56, 189, 248, 0.12);
+  white-space: nowrap;
+}
+
+.orderItems {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.orderItems li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.orderItems li span:last-child {
+  color: var(--color-text-muted);
+  text-align: right;
+}
+
+.orderDetails {
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+}
+
+.orderHelp {
+  margin: 0;
+  padding: 0.8rem;
+  border: 1px solid rgba(251, 191, 36, 0.22);
+  border-radius: 0.85rem;
+  color: #fde68a;
+  background: rgba(120, 53, 15, 0.18);
+}
+
+.orderHelp a {
+  color: inherit;
+  font-weight: 800;
+}
+
+.orderActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.orderActions small {
+  color: var(--color-text-muted);
+}
+
+.orderRowHighlighted {
+  border-color: rgba(103, 232, 249, 0.42);
+  box-shadow: 0 0 0 1px rgba(103, 232, 249, 0.18);
+}
+
+.stateText {
+  color: var(--color-text-muted);
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 599px) {
+  .orderHeader,
+  .orderItems li {
+    grid-template-columns: 1fr;
+  }
+
+  .orderStatus {
+    width: max-content;
+  }
+
+  .orderItems li span:last-child {
+    text-align: left;
+  }
+}
+
+.section {
+  padding: 0 0 clamp(2rem, 5vw, 4rem);
+}
+
+.intro h2 {
+  font-family: var(--font-accent), sans-serif;
+  text-transform: uppercase;
+}
+
+.card,
+.authSurface,
+.returnPanel {
+  border-color: rgba(202, 214, 242, 0.28);
+  background: linear-gradient(145deg, rgba(27, 40, 68, 0.92), rgba(18, 28, 49, 0.88));
+}
+
+.kicker {
+  color: var(--color-pink);
+}
+
+.field input {
+  border-color: rgba(202, 214, 242, 0.26);
+}
+
+/* Account states keep their real API behavior inside the approved Figma page geometry. */
+.section {
+  min-height: 81.5rem;
+  padding: 0 0 5rem;
+  background: #0d1526;
+}
+
+.surface {
+  gap: 1rem;
+}
+
+.intro h2 {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.7rem;
+  margin: 0;
+  padding: 0.55rem 1.2rem;
+  border-radius: 999px;
+  color: #07111f;
+  background: linear-gradient(90deg, #cf9ec6, #ac95d7 54%, #41a3ea);
+  font-family: var(--font-body), sans-serif;
+  font-size: 0.9rem;
+  text-transform: none;
+}
+
+.intro p {
+  width: fit-content;
+  max-width: min(65rem, 100%);
+  margin: 1rem 0 0;
+  padding: 0.55rem 1.2rem;
+  border: 1px solid #6ab0d9;
+  border-radius: 999px;
+  color: #0d1526;
+  background: linear-gradient(90deg, #cf9ec6, #ac95d7 54%, #41a3ea);
+  font-size: 0.85rem;
+}
+
+.authSurface {
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.authSurface p {
+  color: #cbd5e1;
+  text-decoration: underline;
+}
+
+.card,
+.returnPanel {
+  border-color: #6ab0d9;
+  border-radius: 2rem;
+  background: #182238;
+}
+
+@media (max-width: 700px) {
+  .section { min-height: 60rem; }
+  .intro p { border-radius: 1.2rem; }
+}

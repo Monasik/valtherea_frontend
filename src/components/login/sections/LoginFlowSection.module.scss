@@ -1,0 +1,151 @@
+.section {
+  padding: 1.5rem 0 0;
+}
+
+.inner {
+  width: min(1160px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.surface {
+  display: grid;
+  gap: 1.25rem;
+  padding: clamp(1.5rem, 3vw, 2rem);
+  border-radius: 1.75rem;
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  background: linear-gradient(180deg, rgba(15, 22, 39, 0.92), rgba(10, 15, 29, 0.92));
+}
+
+.intro h2 {
+  margin: 0 0 0.6rem;
+}
+
+.intro p {
+  color: var(--color-text-muted);
+  max-width: 42rem;
+}
+
+.notice {
+  margin-top: 1rem;
+  color: var(--color-cyan);
+}
+
+.panel {
+  display: grid;
+  gap: 1rem;
+}
+
+.modeSwitch {
+  display: inline-flex;
+  gap: 0.4rem;
+  padding: 0.3rem;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.92);
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  width: fit-content;
+}
+
+.modeButton {
+  border: 0;
+  border-radius: 999px;
+  padding: 0.75rem 1rem;
+  background: transparent;
+  color: var(--color-text-muted);
+  font: inherit;
+  cursor: pointer;
+}
+
+.modeButtonActive {
+  background: rgba(103, 232, 249, 0.18);
+  color: var(--color-text);
+}
+
+.form {
+  display: grid;
+  gap: 1rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.field span {
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.field input {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  background: rgba(8, 15, 28, 0.88);
+  color: var(--color-text);
+  font: inherit;
+}
+
+.field input::placeholder {
+  color: rgba(226, 232, 240, 0.46);
+}
+
+.field input:focus {
+  outline: 2px solid rgba(103, 232, 249, 0.35);
+  border-color: rgba(103, 232, 249, 0.45);
+}
+
+.optionalGrid {
+  display: grid;
+  gap: 1rem;
+}
+
+.error {
+  margin: 0;
+  padding: 0.9rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(251, 113, 133, 0.25);
+  background: rgba(127, 29, 29, 0.22);
+  color: rgb(254, 205, 211);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+@media (min-width: 760px) {
+  .optionalGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 980px) {
+  .surface {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    align-items: start;
+  }
+}
+
+.section {
+  padding: 0 0 clamp(2rem, 5vw, 4rem);
+}
+
+.surface {
+  border-color: rgba(202, 214, 242, 0.3);
+  background: linear-gradient(145deg, rgba(27, 40, 68, 0.92), rgba(18, 28, 49, 0.9));
+}
+
+.intro h2 {
+  font-family: var(--font-accent), sans-serif;
+  text-transform: uppercase;
+}
+
+.modeButtonActive {
+  background: var(--gradient-accent);
+  color: #111a2b;
+}
+
+.field input {
+  border-color: rgba(202, 214, 242, 0.26);
+}
